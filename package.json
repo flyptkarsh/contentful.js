@@ -39,6 +39,7 @@
     "devdep:install": "npm run devdep:build && rm -rf node_modules/contentful-sdk-core && npm install ../contentful-sdk-core && npm run devdep:clean",
     "devdep:uninstall": "npm run devdep:clean && rimraf node_modules/contentful-sdk-core"
   },
+  "types": "./index.d.ts",
   "files": [
     "index.js",
     "version.js",
